@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7150025473834050197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7150025473834050198}
+  - component: {fileID: 7150025473834050199}
+  - component: {fileID: 7150025473834050196}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7150025473834050198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150025473834050197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7150025473834050199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150025473834050197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24556d34200dcb4c9edb8afba721de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Button
+    clip: {fileID: 8300000, guid: bfa4f41a60a07a34bbc37d05ec746a1e, type: 3}
+    volume: 0.527
+    pitch: 1.72
+    source: {fileID: 0}
+    loop: 0
+  - name: Correct
+    clip: {fileID: 8300000, guid: c3481703a58f20145b61b4ef0a9e2480, type: 3}
+    volume: 0.341
+    pitch: 0.93
+    source: {fileID: 0}
+    loop: 0
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 31671b45317d9d54f8f7d01b68548988, type: 3}
+    volume: 0.341
+    pitch: 0.93
+    source: {fileID: 0}
+    loop: 0
+  - name: Applause
+    clip: {fileID: 8300000, guid: 20848af0b0bc31540a12301b217c4b15, type: 3}
+    volume: 0.341
+    pitch: 0.93
+    source: {fileID: 0}
+    loop: 0
+  - name: Correct
+    clip: {fileID: 8300000, guid: c3481703a58f20145b61b4ef0a9e2480, type: 3}
+    volume: 0.341
+    pitch: 0.93
+    source: {fileID: 0}
+    loop: 0
+  - name: Incorrect
+    clip: {fileID: 8300000, guid: 30a401dc50e1122488474e4abf0b97a1, type: 3}
+    volume: 0.341
+    pitch: 0.93
+    source: {fileID: 0}
+    loop: 0
+  playlist:
+  - name: Background
+    clip: {fileID: 8300000, guid: 5f5ae560694837047b2f684b1d7ed1ce, type: 3}
+    volume: 0.404
+    pitch: 0.89
+    source: {fileID: 0}
+    loop: 1
+  mixer: {fileID: 0}
+  isMuted: 0
+--- !u!81 &7150025473834050196
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7150025473834050197}
+  m_Enabled: 1
