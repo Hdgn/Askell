@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour {
 
 	void Start()
     {
-		//PlayerPrefs.DeleteAll();
+		PlayerPrefs.DeleteAll();
 		Debug.Log("Reset Levels");
 		Settings = false;
 
